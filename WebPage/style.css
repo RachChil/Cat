@@ -35,3 +35,24 @@ input[type="button"] {
     color: rgb(130, 3, 248)
 }
 
+nav {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  a {
+    flex: 1;
+    background-color: #6f2782;
+    color: #b478ba;
+    border: 1px solid;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+  }
+  
+  a:hover,
+  a:focus {
+    background-color: #b478ba;
+    color: #6f2782;
+  }
