@@ -1,0 +1,37 @@
+/* 
+Rachel Children - This is my CSS code to link with my HTML for my Cats website. 09/05/23
+*/
+
+body {
+    background-color: rgb(220, 193, 229);
+}
+
+/* h1 {
+    color: antiquewhite
+}
+
+p {
+    color: antiquewhite
+}
+
+p a {
+    color: antiquewhite
+} */
+
+.intro {
+    color: antiquewhite;
+    width: 50%; /* This is a relative value. 
+    width: 150px; would be an absolute value*/
+}
+input[type="button"] {
+    color: rgb(190, 157, 221);
+}
+
+.intro a {
+    color: antiquewhite
+}
+
+.intro a:hover {
+    color: rgb(130, 3, 248)
+}
+
