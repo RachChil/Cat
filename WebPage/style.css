@@ -2,9 +2,6 @@
 Rachel Children - This is my CSS code to link with my HTML for my Cats website. 09/05/23
 */
 
-body {
-    background-color: rgb(220, 193, 229);
-}
 
 /* h1 {
     color: antiquewhite
@@ -18,46 +15,67 @@ p a {
     color: antiquewhite
 } */
 
+* {
+    color: rgba(92, 0, 102,0.8);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
 h1 {
-    color: antiquewhite;
-    width: 100%; 
+    width: 100%;
     text-align: center;
     font-size: 3em;
     font-weight: bolder;
 
 }
 
+html.body {
+    height: 100%;
+    margin: 0px;
+    background-color: #b478ba;
+}
+
+html {
+    background: url(kitten-floral-crown.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
 .intro {
-    color: antiquewhite;
-    width: 100%; /* This is a relative value. 
+    width: 100%;
+    /* This is a relative value. 
     width: 150px; would be an absolute value*/
     text-align: center;
     font-size: larger;
 }
+
 input[type="button"] {
-    color: rgb(190, 157, 221);
+    color: rgba(92, 0, 102,0.8);
     padding: 10px;
 }
 
 .dropdown {
-    color: rgb(190, 157, 221);
+    color: rgba(92, 0, 102,0.8);
     padding: 10px;
 }
 
 .intro a {
-    color: antiquewhite
+    color:rgba(92, 0, 102,0.8)
 }
 
 .intro a:hover {
-    color: rgb(248, 245, 250)
+    color: rgba(92, 0, 102,0.8)
 }
 
 nav {
     display: flex;
     gap: 0.5rem;
-  }
-  
- nav a {
+}
+
+nav a {
     flex: 1;
     background-color: transparent;
     color: #b478ba;
@@ -67,14 +85,13 @@ nav {
     text-align: center;
     text-decoration: none;
     transition: all 0.5s ease-out;
-  }
-  
-  nav a:hover,
- nav  a:focus {
+}
+
+nav a:hover,
+nav a:focus {
     background-color: transparent;
     color: #b478ba;
     border: 0;
     font-size: 2em;
     font-weight: bolder;
-  }
-
+}
