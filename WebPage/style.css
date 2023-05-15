@@ -33,7 +33,8 @@ html {
 }
 
 /* Relative value for intro class */
-.intro {
+.intro,
+.breedheader {
     width: 100%;
     text-align: center;
     font-size: larger;
@@ -49,11 +50,14 @@ input[type="button"] {
     padding: 10px;
 }
 
-.intro a {
+/*Navigation header */
+.intro a,
+.breedheader a {
     color: rgba(92, 0, 102, 0.8)
 }
 
-.intro a:hover {
+.intro a:hover,
+.breedheader a {
     color: rgba(92, 0, 102, 0.8)
 }
 
@@ -88,7 +92,9 @@ nav a:focus {
 .maincontent {
     padding-top: 0%;
     padding-left: 0%;
+
 }
+
 
 .red {
     border-color: red;
@@ -117,19 +123,22 @@ nav a:focus {
     margin: 10px 0;
     position: relative;
     flex-basis: 30%;
+      text-align: center;
+    width: 120px;
+    margin: 2px;
 }
 
-/* Images crop and center*/
+/* Images crop and center - not currently centred */
 .col-lg img {
     display: block;
-    position: absolute;
-    left: -1000%;
-    right: -1000%;
-    top: -1000%;
-    bottom: -1000%;
+    position: 100%;
+    left: 500%;
+    right: 500%;
+    top: 500%;
+    bottom: 500%;
     margin: auto;
     min-height: 100%;
-    min-width: 100%;
+    min-width: 100%
 }
 
 .imgrid {
@@ -137,5 +146,3 @@ nav a:focus {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-

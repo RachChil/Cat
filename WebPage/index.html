@@ -15,47 +15,53 @@
         <h1> Cat Love.</h1>
         <nav>
             <a href="#">Breeds</a>
-            <a href="#">Vote</a>
+            <a href="#" onClick="showVoteOptions()">Vote</a>
             <a href="#">Favourites</a>
-
         </nav>
-        <p> <i>Mi gato es bonito, tu gato es encantador, amamos a los gatos.</i></p>
-        <p>Select a breed below to learn all about it!</p>
-        <p>
-            <a href="https://thecatsite.com/">
-                <b>Don't forget to check out this handy site for all your cat questions!</b>
-            </a>
-        </p>
-        <select id="dropdown">
-            <option>
-                Choose your breed...
-            </option>
-        </select>
-        <input type="button" value="Let's go!">
     </div>
-
-
-    <div class="panel">
-        <img src="" alt="">
-    </div>
-
-    <!--Voting Option-->
-    <div id="vote-options" class="vote-options">
-        <button onClick="vote(1)">Vote Up </button>
-        <button onClick="vote(-1)">Vote Down </button>
-        <button onClick="showHistoricVotes()">History </button>
-
-        <div>
-            <img id="image-to-vote-on" class="col-lg"></img>
+    <div class="main-content">
+        <div class="breedheader" id="breedheader">
+            <p> <i>Mi gato es bonito, tu gato es encantador, amamos a los gatos.</i></p>
+            <p>Select a breed below to learn all about it!</p>
+            <p>
+                <a href="https://thecatsite.com/">
+                    <b>Don't forget to check out this handy site for all your cat questions!</b>
+                </a>
+            </p>
+            <select id="dropdown">
+                <option>
+                    Choose your breed...
+                </option>
+            </select>
+            <input type="button" value="Let's go!">
         </div>
 
-    </div>
 
-    <div id="vote-results" class="vote-results">
-        <button onClick="showVoteOptions()">Show Vote Options</button>
-        <div id="grid" class="imgrid">
-
+        <div class="panel">
+            <img src="" alt="">
         </div>
+
+        <div id="cat-voting-system">
+            <!--Voting Option-->
+            <div style="display:none;" id="vote-options" class="vote-options">
+                <button onClick="vote(1)">Vote Up </button>
+                <button onClick="vote(-1)">Vote Down </button>
+                <button onClick="showHistoricVotes()">History </button>
+
+                <div>
+                    <img id="image-to-vote-on" class="col-lg"></img>
+                </div>
+
+            </div>
+
+            <div id="vote-results" class="vote-results">
+                <!-- <button onClick="showVoteOptions()">Show Vote Options</button> -->
+                <div id="grid" class="imgrid">
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 </body>

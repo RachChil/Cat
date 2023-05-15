@@ -15,6 +15,7 @@ function showHistoricVotes() {
     document.getElementById('vote-options').style.display = 'none';
     document.getElementById('vote-results').style.display = 'block';
 
+
     const url = `${API_URL}votes?limit=10&order=DESC`;
 
     fetch(url, {
@@ -63,6 +64,7 @@ function showVoteOptions() {
 
     document.getElementById('vote-options').style.display = 'block';
     document.getElementById('vote-results').style.display = 'none';
+    document.getElementById('breedheader').style.display = 'none';
 
     showImageToVoteOn()
 }
@@ -105,7 +107,8 @@ function vote(value) {
         })
 }
 
-showVoteOptions()
+// showVoteOptions()
+
 
 
 //Filter by breed 
