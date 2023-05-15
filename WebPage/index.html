@@ -26,7 +26,7 @@
                 <b>Don't forget to check out this handy site for all your cat questions!</b>
             </a>
         </p>
-        <select class="dropdown">
+        <select id="dropdown">
             <option>
                 Choose your breed...
             </option>
@@ -39,7 +39,27 @@
         <img src="" alt="">
     </div>
 
+    <!--Voting Option-->
+    <div id="vote-options" class="vote-options">
+        <button onClick="vote(1)">Vote Up </button>
+        <button onClick="vote(-1)">Vote Down </button>
+        <button onClick="showHistoricVotes()">History </button>
+
+        <div>
+            <img id="image-to-vote-on" class="col-lg"></img>
+        </div>
+
+    </div>
+
+    <div id="vote-results" class="vote-results">
+        <button onClick="showVoteOptions()">Show Vote Options</button>
+        <div id="grid" class="imgrid">
+
+        </div>
+
 
 </body>
 
 </html>
+
+<script src="cat.js"></script>
