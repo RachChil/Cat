@@ -120,6 +120,16 @@ nav a:focus {
 
 
 /* Green thumb/red thumb */
+#button_love {
+    background-color: #4CAF50;
+    /* Green */
+   
+}
+
+#button_nope {
+    background-color: #f40909;
+    /* Red */
+}
 
 /* Put voting system in a border/box define height*/
 
