@@ -92,20 +92,23 @@ nav a:focus {
 /* Center image & height/width */
 #cat-voting-system {
     text-align: center;
+
 }
 
 /* Redo grid on the history page*/
+
 .col-lg {
     height: 200px;
     overflow: hidden;
     margin: 10px 0;
     position: relative;
     flex-basis: 30%;
-}
+} 
 
 .col-lg img {
     max-width: 100%;
-    height: auto;
+    height: inherit;
+    background-color: #2bb8f519;
 }
 
 .imgrid {
@@ -113,6 +116,14 @@ nav a:focus {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+/* #vote-results {
+    max-width: 500%;
+    height: 500%; }
+    */
+
+
+
 
 /* Green thumb/red thumb */
 
