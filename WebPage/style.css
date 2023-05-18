@@ -94,9 +94,25 @@ nav a:focus {
     text-align: center;
 }
 
-
 /* Redo grid on the history page*/
+.col-lg {
+    height: 200px;
+    overflow: hidden;
+    margin: 10px 0;
+    position: relative;
+    flex-basis: 30%;
+}
 
+.col-lg img {
+    max-width: 100%;
+    height: auto;
+}
+
+.imgrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 /* Green thumb/red thumb */
 

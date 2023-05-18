@@ -14,6 +14,7 @@ function showHistoricVotes() {
 
     document.getElementById('vote-options').style.display = 'none';
     document.getElementById('vote-results').style.display = 'block';
+    document.getElementById('breedheader').style.display = 'none';
 
 
     const url = `${API_URL}votes?limit=10&order=DESC`;

@@ -16,7 +16,7 @@
         <nav>
             <a href="#">Breeds</a>
             <a href="#" onClick="showVoteOptions()">Vote</a>
-            <a href="#">Favourites</a>
+            <a href="#" onClick="showHistoricVotes()">Favourites</a>
         </nav>
     </div>
     <div class="main-content">
@@ -49,8 +49,7 @@
                 <button onClick="showHistoricVotes()">History </button>
 
                 <div>
-                    <img id="image-to-vote-on" class="col-lg"  width="400" 
-                    height="400"></img>
+                    <img id="image-to-vote-on" class="col-lg" ></img>
                     
                 </div>
 
@@ -58,7 +57,8 @@
 
             <div id="vote-results" class="vote-results">
                 <!-- <button onClick="showVoteOptions()">Show Vote Options</button> -->
-                <div id="grid" class="imgrid">
+                <div id="grid" class="imgrid" width="400" 
+                height="400">
 
                 </div>
             </div>
