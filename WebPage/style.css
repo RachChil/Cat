@@ -89,60 +89,16 @@ nav a:focus {
 
 /*Voting Panel*/
 
-.maincontent {
-    padding-top: 0%;
-    padding-left: 0%;
-
+/* Center image & height/width */
+#cat-voting-system {
+    text-align: center;
 }
 
+/* Redo grid on the history page*/
 
-.red {
-    border-color: red;
-    padding: 1%;
-    border-style: solid;
-    border-width: medium;
-}
 
-.green {
-    border-color: green;
-    padding: 1%;
-    border-style: solid;
-    border-width: medium;
-}
+/* Green thumb/red thumb */
 
-.col {
-    border-color: red;
-    padding: 1%;
-    border-style: solid;
-    border-width: medium;
-}
+/* Put voting system in a border/box define height*/
 
-.col-lg {
-    height: 200px;
-    overflow: hidden;
-    margin: 10px 0;
-    position: relative;
-    flex-basis: 30%;
-      text-align: center;
-    width: 120px;
-    margin: 2px;
-}
-
-/* Images crop and center - not currently centred */
-.col-lg img {
-    display: block;
-    position: 100%;
-    left: 500%;
-    right: 500%;
-    top: 500%;
-    bottom: 500%;
-    margin: auto;
-    min-height: 100%;
-    min-width: 100%
-}
-
-.imgrid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+/* move history to favourites only show vote up */
