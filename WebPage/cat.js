@@ -89,7 +89,7 @@ function showImageToVoteOn() {
         });
 
 }
-
+// showVoteOptions()
 function vote(value) {
 
     const url = `${API_URL}votes/`;
@@ -108,9 +108,41 @@ function vote(value) {
         })
 }
 
-// showVoteOptions()
+//Random grid of cats 
+const url = `https://api.thecatapi.com/v1/images/search?limit=20`;
 
+function catImages() {
+    document.getElementById('breedheader').style.display = 'none';
+    
+    fetch(url, {
+        headers: {
+            'x-api-key': API_KEY
+        }
+    })
+        .then((response) => {
+            return response.json();
+        })
+        .then((data) => {
+            let imagesData = data;
+            imagesData.map(function (imageData) {
 
+                let image = document.createElement('img');
+                //use the url from the image object
+                image.src = `${imageData.url}`;
+
+                let gridCell = document.createElement('div');
+                gridCell.classList.add('col');
+                gridCell.classList.add('col-lg');
+                gridCell.appendChild(image)
+
+                document.getElementById('grid').appendChild(gridCell);
+
+            });
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
+}
 
 //Filter by breed 
 

@@ -103,7 +103,7 @@ nav a:focus {
     margin: 10px 0;
     position: relative;
     flex-basis: 30%;
-} 
+}
 
 .col-lg img {
     max-width: 100%;
@@ -117,16 +117,10 @@ nav a:focus {
     justify-content: space-between;
 }
 
-/* #vote-results {
-    max-width: 500%;
-    height: 500%; }
-    */
-
-
 
 
 /* Green thumb/red thumb */
 
 /* Put voting system in a border/box define height*/
 
-/* move history to favourites only show vote up */
+/* Favourites layout like history*/
