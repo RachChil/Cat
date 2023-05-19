@@ -122,12 +122,15 @@ nav a:focus {
 /* Green thumb/red thumb */
 #button_love {
     background-color: #4CAF50;
+    padding: 0;
     /* Green */
    
 }
 
 #button_nope {
     background-color: #f40909;
+    padding: 0;
+    
     /* Red */
 }
 

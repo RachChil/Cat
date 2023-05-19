@@ -15,6 +15,7 @@ function showHistoricVotes() {
     document.getElementById('vote-options').style.display = 'none';
     document.getElementById('vote-results').style.display = 'block';
     document.getElementById('breedheader').style.display = 'none';
+    document.getElementById('cats-only').style.display = 'none'
 
 
     const url = `${API_URL}votes?limit=10&order=DESC`;
@@ -66,6 +67,7 @@ function showVoteOptions() {
     document.getElementById('vote-options').style.display = 'block';
     document.getElementById('vote-results').style.display = 'none';
     document.getElementById('breedheader').style.display = 'none';
+    document.getElementById('cats-only').style.display = 'none';
 
     showImageToVoteOn()
 }
@@ -112,7 +114,10 @@ function vote(value) {
 const url = `https://api.thecatapi.com/v1/images/search?limit=20`;
 
 function catImages() {
+    document.getElementById('vote-options').style.display = 'none';
+    document.getElementById('vote-results').style.display = 'none';
     document.getElementById('breedheader').style.display = 'none';
+    document.getElementById('cats-only').style.display = 'block';
     
     fetch(url, {
         headers: {
