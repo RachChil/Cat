@@ -122,18 +122,19 @@ nav a:focus {
 /* Green thumb/red thumb */
 #button_love {
     background-color: #4CAF50;
-    padding: 0;
-    /* Green */
-   
+    margin: auto;
+    display: inline;
+    color: whitesmoke
+        /* Green */
+
 }
 
 #button_nope {
     background-color: #f40909;
-    padding: 0;
-    
-    /* Red */
+    margin: auto;
+    display: inline;
+    color: whitesmoke
+        /* Red */
 }
 
 /* Put voting system in a border/box define height*/
-
-/* Favourites layout like history*/
