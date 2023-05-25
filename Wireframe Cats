@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2023-05-25T16:23:45.020Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.9" etag="Mc2xBLBAtuXJz2A_35w5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-25T16:24:33.214Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Dkbmsx_y32ci13931e_G" version="21.2.9" type="github">
   <diagram name="Page-1" id="o1zWCrJvbrgxzajauK2L">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9TokyIi4B-X8Ti-gVVuO-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="540" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="9TokyIi4B-X8Ti-gVVuO-2" value="&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Cat Love&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; Breed.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Vote&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Favourites&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Cat&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="160" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9TokyIi4B-X8Ti-gVVuO-3" value="Image of random cat&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="300" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9TokyIi4B-X8Ti-gVVuO-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389" y="280" as="sourcePoint" />
+            <mxPoint x="439" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9TokyIi4B-X8Ti-gVVuO-5" value="Image of random cat" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="300" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9TokyIi4B-X8Ti-gVVuO-6" value="Image of random cat" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="300" width="130" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
