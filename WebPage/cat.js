@@ -4,8 +4,8 @@ This is my JavaScript document
 */
 
 //Variables
-const API_URL = `https://api.thecatapi.com/v1/`;
-const API_KEY = "live_amP09F5V04BeGtfbqYEjp8wFbUnFz0EODqLOoOr0fpLY4OyVZxbtkSiOZtuzKLUo"
+const API_URL = 'https://api.thecatapi.com/v1/';
+const API_KEY = 'live_amP09F5V04BeGtfbqYEjp8wFbUnFz0EODqLOoOr0fpLY4OyVZxbtkSiOZtuzKLUo';
 
 //Images to vote on 
 let currentImageToVoteOn;
@@ -118,7 +118,7 @@ function catImages() {
     document.getElementById('vote-results').style.display = 'none';
     document.getElementById('breedheader').style.display = 'none';
     document.getElementById('cats-only').style.display = 'block';
-    
+
     fetch(url, {
         headers: {
             'x-api-key': API_KEY
@@ -150,4 +150,35 @@ function catImages() {
 }
 
 //Filter by breed 
+const breed_URL = 'https://api.thecatapi.com/v1/breeds'
 
+function catBreeds() {
+    document.getElementById('vote-options').style.display = 'none';
+    document.getElementById('vote-results').style.display = 'none';
+    document.getElementById('breedheader').style.display = 'block';
+    document.getElementById('cats-only').style.display = 'none';
+ 
+   window.addEventListener("load", updateBreedList);
+    async function getBreedList() {
+        return fetch(breed_URL).then(response => response.json());
+    }
+
+    function updateBreedList() 
+        let breedList = document.getElementById('breed-list');
+        getBreedList().then(function (data) {
+            for(element in data){
+                breedList.appendChild(createOption(data[element]));
+                // getBreedList.appendChild(option);
+            }
+
+        });
+    };
+}
+
+function createOption(text){
+    let option = document.createElement("option")
+    option.textContent = text.name;
+    return option
+}
+
+catBreeds();
