@@ -163,7 +163,7 @@ function catBreeds() {
         return fetch(breed_URL).then(response => response.json());
     }
 
-    function updateBreedList() 
+    function updateBreedList() {
         let breedList = document.getElementById('breed-list');
         getBreedList().then(function (data) {
             for(element in data){
@@ -172,7 +172,7 @@ function catBreeds() {
             }
 
         });
-    };
+    }
 }
 
 function createOption(text){
